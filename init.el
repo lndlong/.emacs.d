@@ -4,6 +4,10 @@
 
 (setq inhibit-startup-screen t)
 
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
+
 ;;; Code:
 ;;(setq default-directory "~/")
 
