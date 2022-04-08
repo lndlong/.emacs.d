@@ -13,3 +13,6 @@
 
 # git tag show vx.x               标签数据及对应的提交
 
+eln-cache/
+sen*
+
