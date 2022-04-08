@@ -1,0 +1,15 @@
+# 空行或#开头会忽略
+# /开头禁用递归匹配，eg, /TODO 只忽略当前目录下的TODO，而不忽略子目录下的TODO
+# /结尾表示全目录， eg, build/ 忽略build/目录下所有文件
+# doc/*.txt        忽略doc/notes.txt，而不忽略doc/server/arch.txt
+# doc/**/*.pdf     忽略doc/目录下所有.pdf文件
+
+# git diff  
+# 查看尚未添加到暂存区的变更。
+
+# git tag -a vx.x -m "commit"    创建标签
+
+# git tag -l "vx.x"               查看vx.x系列的标记版本
+
+# git tag show vx.x               标签数据及对应的提交
+
