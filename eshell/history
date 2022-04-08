@@ -1,0 +1,10 @@
+ls 
+cd ~/.emacs.d/
+ls 
+ll
+ls -all
+ls -a | grep package
+cd lisp/
+ls 
+eemacs elpa-lndlong.el 
+emacs elpa-lndlong.el

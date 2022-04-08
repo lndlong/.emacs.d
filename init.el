@@ -4,6 +4,7 @@
 
 (setq inhibit-startup-screen t)
 
+;;; temporary saved there 
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)))
@@ -16,6 +17,7 @@
 
 (require 'elpa-lndlong)
 (require 'package-lndlong)
+
 
 ;; load custom file at last
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

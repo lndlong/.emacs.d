@@ -1,4 +1,17 @@
+
+
 (use-package restart-emacs)
+;; Lanauge CODE
+(use-package
+  :ensure t
+  :defer t
+  :init
+  (advice-add 'python-mode :before 'elpy-enable))
+
+;; Python-need-mode
+(use-package py-autopep8
+  hook: 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
 
 ;;  语法检查
 (use-package flycheck

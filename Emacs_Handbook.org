@@ -1,0 +1,34 @@
+* Using MELPA
+** Ensure the latest versions of MELPA packages are available.
+#+BEGIN_SRC emacs-lisp
+  M-x package-refresh-contents RET
+#+END_SRC
+** Install packages
+#+BEGIN_SRC emacs-lisp
+  M-x package-install RET <package name> RET
+#+END_SRC
+
+* Use pdg
+** command
+*** l (list)
+If without arguments, will print 11 lines around the current line or continue the previous listing.
+*** ll (longlist)
+list of code
+*** n (nest)
+Continue execution until the next line in the current function is reached or it returns.
+*** s (step)
+Execute the current line and stop at the first possible occasion (either in a function that is called or in the current function).
+*** c
+continues execution until a breakpoint is found
+*** b
+set a breakpoint
+ - Enter b with no arguments to see a list of all breakpoints:
+
+*** cl
+Delete a breakpoint
+*** h
+help
+'h pdb
+show the full pdb documentation
+*** q
+quit the debugger and exit
