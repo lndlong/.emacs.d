@@ -10,7 +10,7 @@
 (setq package-check-signature nil) ;; 关闭签名检验
 
 
-(require 'package-lndlong)
+
 
 ;; 初始化包管理器
 (unless (bound-and-true-p package-initialized)
@@ -35,7 +35,7 @@
  )
 
 ;; use-package
-(require 'use-package)
+(require 'package-lndlong)
 
 
 (provide 'elpa-lndlong)
