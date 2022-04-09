@@ -16,4 +16,7 @@
 eln-cache/
 sen*
 *~
+.emacs/**/#*
+#*
+.#*
 recentf/
